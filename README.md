@@ -1,3 +1,3 @@
 # DNTableViewComponent
 TableView 嵌套组件
-![ DNTableViewComponent/DNTableViewComponent/2018-03-23 12_56_16.gif ]
+![ https://raw.githubusercontent.com/git-hushuai/DNTableViewComponent/master/DNTableViewComponent/2018-03-23%2012_56_16.gif]
