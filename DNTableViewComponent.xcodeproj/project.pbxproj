@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABD64F1B2845376A142E0D0E /* Pods_DNTableViewComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACA0EDE808BDE0E05DDA60C /* Pods_DNTableViewComponent.framework */; };
 		BF96821E20649E6F0047AEC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96821D20649E6F0047AEC1 /* AppDelegate.m */; };
 		BF96822120649E6F0047AEC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96822020649E6F0047AEC1 /* ViewController.m */; };
 		BF96822420649E6F0047AEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF96822220649E6F0047AEC1 /* Main.storyboard */; };
 		BF96822620649E6F0047AEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF96822520649E6F0047AEC1 /* Assets.xcassets */; };
 		BF96822920649E6F0047AEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF96822720649E6F0047AEC1 /* LaunchScreen.storyboard */; };
 		BF96822C20649E6F0047AEC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96822B20649E6F0047AEC1 /* main.m */; };
+		BF96823520649F030047AEC1 /* DNTitleComponentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96823420649F030047AEC1 /* DNTitleComponentView.m */; };
+		BF9682382064A1120047AEC1 /* DNSubVCContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9682372064A1120047AEC1 /* DNSubVCContainerView.m */; };
+		BF96823B2064A2730047AEC1 /* DNBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96823A2064A2730047AEC1 /* DNBaseTableView.m */; };
+		BF9682402064A6240047AEC1 /* DNBottomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96823E2064A6240047AEC1 /* DNBottomTableViewCell.m */; };
+		BF9682412064A6240047AEC1 /* DNBottomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF96823F2064A6240047AEC1 /* DNBottomTableViewCell.xib */; };
+		BF9682452064A6A20047AEC1 /* DNSubItemContentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9682432064A6A20047AEC1 /* DNSubItemContentVC.m */; };
+		BF9682462064A6A20047AEC1 /* DNSubItemContentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9682442064A6A20047AEC1 /* DNSubItemContentVC.xib */; };
+		BF96824A2064A7560047AEC1 /* DNDemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9682482064A7560047AEC1 /* DNDemoTableViewCell.m */; };
+		BF96824B2064A7560047AEC1 /* DNDemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9682492064A7560047AEC1 /* DNDemoTableViewCell.xib */; };
+		BF96824F2064AB930047AEC1 /* DNDemoTableViewCellTWO.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96824D2064AB930047AEC1 /* DNDemoTableViewCellTWO.m */; };
+		BF9682502064AB930047AEC1 /* DNDemoTableViewCellTWO.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF96824E2064AB930047AEC1 /* DNDemoTableViewCellTWO.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1ACA0EDE808BDE0E05DDA60C /* Pods_DNTableViewComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNTableViewComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		476F3800DBD938DFD0432435 /* Pods-DNTableViewComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNTableViewComponent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DNTableViewComponent/Pods-DNTableViewComponent.debug.xcconfig"; sourceTree = "<group>"; };
 		BF96821920649E6F0047AEC1 /* DNTableViewComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNTableViewComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF96821C20649E6F0047AEC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF96821D20649E6F0047AEC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +40,26 @@
 		BF96822820649E6F0047AEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF96822A20649E6F0047AEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF96822B20649E6F0047AEC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF96823320649F030047AEC1 /* DNTitleComponentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNTitleComponentView.h; sourceTree = "<group>"; };
+		BF96823420649F030047AEC1 /* DNTitleComponentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNTitleComponentView.m; sourceTree = "<group>"; };
+		BF9682362064A1120047AEC1 /* DNSubVCContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNSubVCContainerView.h; sourceTree = "<group>"; };
+		BF9682372064A1120047AEC1 /* DNSubVCContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNSubVCContainerView.m; sourceTree = "<group>"; };
+		BF9682392064A2730047AEC1 /* DNBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNBaseTableView.h; sourceTree = "<group>"; };
+		BF96823A2064A2730047AEC1 /* DNBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNBaseTableView.m; sourceTree = "<group>"; };
+		BF96823C2064A4930047AEC1 /* DNTableViewComponent.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNTableViewComponent.pch; sourceTree = "<group>"; };
+		BF96823D2064A6240047AEC1 /* DNBottomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNBottomTableViewCell.h; sourceTree = "<group>"; };
+		BF96823E2064A6240047AEC1 /* DNBottomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNBottomTableViewCell.m; sourceTree = "<group>"; };
+		BF96823F2064A6240047AEC1 /* DNBottomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DNBottomTableViewCell.xib; sourceTree = "<group>"; };
+		BF9682422064A6A20047AEC1 /* DNSubItemContentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNSubItemContentVC.h; sourceTree = "<group>"; };
+		BF9682432064A6A20047AEC1 /* DNSubItemContentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNSubItemContentVC.m; sourceTree = "<group>"; };
+		BF9682442064A6A20047AEC1 /* DNSubItemContentVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DNSubItemContentVC.xib; sourceTree = "<group>"; };
+		BF9682472064A7560047AEC1 /* DNDemoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNDemoTableViewCell.h; sourceTree = "<group>"; };
+		BF9682482064A7560047AEC1 /* DNDemoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNDemoTableViewCell.m; sourceTree = "<group>"; };
+		BF9682492064A7560047AEC1 /* DNDemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DNDemoTableViewCell.xib; sourceTree = "<group>"; };
+		BF96824C2064AB930047AEC1 /* DNDemoTableViewCellTWO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNDemoTableViewCellTWO.h; sourceTree = "<group>"; };
+		BF96824D2064AB930047AEC1 /* DNDemoTableViewCellTWO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNDemoTableViewCellTWO.m; sourceTree = "<group>"; };
+		BF96824E2064AB930047AEC1 /* DNDemoTableViewCellTWO.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DNDemoTableViewCellTWO.xib; sourceTree = "<group>"; };
+		E8B74500A0FBB180D00D2147 /* Pods-DNTableViewComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNTableViewComponent.release.xcconfig"; path = "Pods/Target Support Files/Pods-DNTableViewComponent/Pods-DNTableViewComponent.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD64F1B2845376A142E0D0E /* Pods_DNTableViewComponent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F2746816660825C41EE807F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				476F3800DBD938DFD0432435 /* Pods-DNTableViewComponent.debug.xcconfig */,
+				E8B74500A0FBB180D00D2147 /* Pods-DNTableViewComponent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		48626B0009BAA59E66FC99BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ACA0EDE808BDE0E05DDA60C /* Pods_DNTableViewComponent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF96821020649E6F0047AEC1 = {
 			isa = PBXGroup;
 			children = (
 				BF96821B20649E6F0047AEC1 /* DNTableViewComponent */,
 				BF96821A20649E6F0047AEC1 /* Products */,
+				1F2746816660825C41EE807F /* Pods */,
+				48626B0009BAA59E66FC99BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +112,45 @@
 		BF96821B20649E6F0047AEC1 /* DNTableViewComponent */ = {
 			isa = PBXGroup;
 			children = (
+				BF96823220649EC60047AEC1 /* ShareUI */,
 				BF96821C20649E6F0047AEC1 /* AppDelegate.h */,
 				BF96821D20649E6F0047AEC1 /* AppDelegate.m */,
 				BF96821F20649E6F0047AEC1 /* ViewController.h */,
 				BF96822020649E6F0047AEC1 /* ViewController.m */,
+				BF96823D2064A6240047AEC1 /* DNBottomTableViewCell.h */,
+				BF96823E2064A6240047AEC1 /* DNBottomTableViewCell.m */,
+				BF96823F2064A6240047AEC1 /* DNBottomTableViewCell.xib */,
+				BF9682422064A6A20047AEC1 /* DNSubItemContentVC.h */,
+				BF9682432064A6A20047AEC1 /* DNSubItemContentVC.m */,
+				BF9682442064A6A20047AEC1 /* DNSubItemContentVC.xib */,
+				BF9682472064A7560047AEC1 /* DNDemoTableViewCell.h */,
+				BF9682482064A7560047AEC1 /* DNDemoTableViewCell.m */,
+				BF9682492064A7560047AEC1 /* DNDemoTableViewCell.xib */,
+				BF96824C2064AB930047AEC1 /* DNDemoTableViewCellTWO.h */,
+				BF96824D2064AB930047AEC1 /* DNDemoTableViewCellTWO.m */,
+				BF96824E2064AB930047AEC1 /* DNDemoTableViewCellTWO.xib */,
 				BF96822220649E6F0047AEC1 /* Main.storyboard */,
 				BF96822520649E6F0047AEC1 /* Assets.xcassets */,
 				BF96822720649E6F0047AEC1 /* LaunchScreen.storyboard */,
 				BF96822A20649E6F0047AEC1 /* Info.plist */,
 				BF96822B20649E6F0047AEC1 /* main.m */,
+				BF96823C2064A4930047AEC1 /* DNTableViewComponent.pch */,
 			);
 			path = DNTableViewComponent;
+			sourceTree = "<group>";
+		};
+		BF96823220649EC60047AEC1 /* ShareUI */ = {
+			isa = PBXGroup;
+			children = (
+				BF96823320649F030047AEC1 /* DNTitleComponentView.h */,
+				BF96823420649F030047AEC1 /* DNTitleComponentView.m */,
+				BF9682362064A1120047AEC1 /* DNSubVCContainerView.h */,
+				BF9682372064A1120047AEC1 /* DNSubVCContainerView.m */,
+				BF9682392064A2730047AEC1 /* DNBaseTableView.h */,
+				BF96823A2064A2730047AEC1 /* DNBaseTableView.m */,
+			);
+			name = ShareUI;
+			path = Lib/ShareUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF96822F20649E6F0047AEC1 /* Build configuration list for PBXNativeTarget "DNTableViewComponent" */;
 			buildPhases = (
+				44178BAA00B52821E4E4AFBB /* [CP] Check Pods Manifest.lock */,
 				BF96821520649E6F0047AEC1 /* Sources */,
 				BF96821620649E6F0047AEC1 /* Frameworks */,
 				BF96821720649E6F0047AEC1 /* Resources */,
+				BB8F8A8803297BD0C791BA6B /* [CP] Embed Pods Frameworks */,
+				00D9347CCCF962E08F0E8528 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,13 +214,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9682412064A6240047AEC1 /* DNBottomTableViewCell.xib in Resources */,
+				BF9682462064A6A20047AEC1 /* DNSubItemContentVC.xib in Resources */,
 				BF96822920649E6F0047AEC1 /* LaunchScreen.storyboard in Resources */,
+				BF9682502064AB930047AEC1 /* DNDemoTableViewCellTWO.xib in Resources */,
 				BF96822620649E6F0047AEC1 /* Assets.xcassets in Resources */,
+				BF96824B2064A7560047AEC1 /* DNDemoTableViewCell.xib in Resources */,
 				BF96822420649E6F0047AEC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00D9347CCCF962E08F0E8528 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DNTableViewComponent/Pods-DNTableViewComponent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44178BAA00B52821E4E4AFBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DNTableViewComponent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB8F8A8803297BD0C791BA6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DNTableViewComponent/Pods-DNTableViewComponent-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DNTableViewComponent/Pods-DNTableViewComponent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF96821520649E6F0047AEC1 /* Sources */ = {
@@ -143,8 +286,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF96822120649E6F0047AEC1 /* ViewController.m in Sources */,
+				BF9682402064A6240047AEC1 /* DNBottomTableViewCell.m in Sources */,
+				BF96824A2064A7560047AEC1 /* DNDemoTableViewCell.m in Sources */,
+				BF96824F2064AB930047AEC1 /* DNDemoTableViewCellTWO.m in Sources */,
 				BF96822C20649E6F0047AEC1 /* main.m in Sources */,
+				BF96823B2064A2730047AEC1 /* DNBaseTableView.m in Sources */,
 				BF96821E20649E6F0047AEC1 /* AppDelegate.m in Sources */,
+				BF9682382064A1120047AEC1 /* DNSubVCContainerView.m in Sources */,
+				BF9682452064A6A20047AEC1 /* DNSubItemContentVC.m in Sources */,
+				BF96823520649F030047AEC1 /* DNTitleComponentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,29 +426,37 @@
 		};
 		BF96823020649E6F0047AEC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476F3800DBD938DFD0432435 /* Pods-DNTableViewComponent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4537P87NS;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = DNTableViewComponent/DNTableViewComponent.pch;
 				INFOPLIST_FILE = DNTableViewComponent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mamasay.DNTableViewComponent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BF96823120649E6F0047AEC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8B74500A0FBB180D00D2147 /* Pods-DNTableViewComponent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4537P87NS;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = DNTableViewComponent/DNTableViewComponent.pch;
 				INFOPLIST_FILE = DNTableViewComponent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mamasay.DNTableViewComponent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
