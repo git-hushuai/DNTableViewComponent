@@ -25,7 +25,6 @@
 		BF96824B2064A7560047AEC1 /* DNDemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9682492064A7560047AEC1 /* DNDemoTableViewCell.xib */; };
 		BF96824F2064AB930047AEC1 /* DNDemoTableViewCellTWO.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96824D2064AB930047AEC1 /* DNDemoTableViewCellTWO.m */; };
 		BF9682502064AB930047AEC1 /* DNDemoTableViewCellTWO.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF96824E2064AB930047AEC1 /* DNDemoTableViewCellTWO.xib */; };
-		BF9682522064C0B30047AEC1 /* 2018-03-23 12_56_16.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF9682512064C0B20047AEC1 /* 2018-03-23 12_56_16.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,7 +59,6 @@
 		BF96824C2064AB930047AEC1 /* DNDemoTableViewCellTWO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNDemoTableViewCellTWO.h; sourceTree = "<group>"; };
 		BF96824D2064AB930047AEC1 /* DNDemoTableViewCellTWO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNDemoTableViewCellTWO.m; sourceTree = "<group>"; };
 		BF96824E2064AB930047AEC1 /* DNDemoTableViewCellTWO.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DNDemoTableViewCellTWO.xib; sourceTree = "<group>"; };
-		BF9682512064C0B20047AEC1 /* 2018-03-23 12_56_16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2018-03-23 12_56_16.gif"; sourceTree = "<group>"; };
 		E8B74500A0FBB180D00D2147 /* Pods-DNTableViewComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNTableViewComponent.release.xcconfig"; path = "Pods/Target Support Files/Pods-DNTableViewComponent/Pods-DNTableViewComponent.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,7 +135,6 @@
 				BF96822A20649E6F0047AEC1 /* Info.plist */,
 				BF96822B20649E6F0047AEC1 /* main.m */,
 				BF96823C2064A4930047AEC1 /* DNTableViewComponent.pch */,
-				BF9682512064C0B20047AEC1 /* 2018-03-23 12_56_16.gif */,
 			);
 			path = DNTableViewComponent;
 			sourceTree = "<group>";
@@ -220,7 +217,6 @@
 				BF9682412064A6240047AEC1 /* DNBottomTableViewCell.xib in Resources */,
 				BF9682462064A6A20047AEC1 /* DNSubItemContentVC.xib in Resources */,
 				BF96822920649E6F0047AEC1 /* LaunchScreen.storyboard in Resources */,
-				BF9682522064C0B30047AEC1 /* 2018-03-23 12_56_16.gif in Resources */,
 				BF9682502064AB930047AEC1 /* DNDemoTableViewCellTWO.xib in Resources */,
 				BF96822620649E6F0047AEC1 /* Assets.xcassets in Resources */,
 				BF96824B2064A7560047AEC1 /* DNDemoTableViewCell.xib in Resources */,
